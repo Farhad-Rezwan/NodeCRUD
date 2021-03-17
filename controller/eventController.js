@@ -23,7 +23,7 @@ module.exports.getAllEvents = async (req, res) => {
     var response = { ...constants.defaultServerResponse };
     
     try {
-        const responseFromService = await eventService.getAllEvents();
+        const responseFromService = await eventService.getAllEvents(req.query);
         response.status = 200;
         response.message = constants.eventMessage.EVENT_FETCHED;
         response.body = responseFromService;

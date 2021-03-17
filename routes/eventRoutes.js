@@ -10,7 +10,10 @@ router.post('/',
     eventController.postEvent
 );
 
-router.get('/', eventController.getAllEvents)
+router.get('/', 
+    joiSchemaValidation.validateQueryParams(eventSchema.getrAllEventSchema),
+    eventController.getAllEvents
+);
 
 router.get('/:id', 
     eventController.getEventById

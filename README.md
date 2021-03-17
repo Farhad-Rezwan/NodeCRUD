@@ -2,12 +2,12 @@
 
 ## Checklist:
 
-- [ ] Express RESTFul endpoints storeEvents
+- [x] Express RESTFul endpoints storeEvents
 - [x] Events: data(title, message, creationTime, owner(name, etc))
 - [x] MongoDB
 - [x] API Endpoints: postEvent, findEventByID(_id), updateEventByID, deleteEventByID
 - [x] CORS
-- [ ] a Fancy Feature - Pagination
+- [x] a Fancy Feature - Pagination
 - [x] Follow: REST Standards
 - [x] Adequate: Mongoose Query
 - [x] Error Handling
@@ -18,11 +18,11 @@
 
 ## Doing
 
-- a Fancy Feature - pagination
 
 ## Done
 
-- Events: data(title, message, creationTime, owner(name, etc))
+- a Fancy Feature - pagination
+- Events: data(title, message, creationTime, owner(name))
 - CORS
 - MongoDB - connection. 
 - Environment Variables
