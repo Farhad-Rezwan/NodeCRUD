@@ -5,26 +5,20 @@
 - [ ] Express RESTFul endpoints storeEvents
 - [x] Events: data(title, message, creationTime, owner(name, etc))
 - [x] MongoDB
-- [ ] API Endpoints: postEvent, findEventByID(_id), updateEventByID, deleteEventByID
+- [x] API Endpoints: postEvent, findEventByID(_id), updateEventByID, deleteEventByID
 - [x] CORS
-- [ ] a Fancy Feature
-- [ ] Follow: REST Standards
-- [ ] Adequate: Mongoose Query
-- [ ] Error Handling
-- [ ] Validation
-- [ ] Environment Variables
+- [ ] a Fancy Feature - Pagination
+- [x] Follow: REST Standards
+- [x] Adequate: Mongoose Query
+- [x] Error Handling
+- [x] Validation
+- [x] Environment Variables
 
 ## ToDo
 
-- a Fancy Feature
-- Follow: REST Standards
-- Adequate: Mongoose Query
-- Error Handling
-- Validation
-
 ## Doing
-- Express RESTFul endpoints storeEvents
-- API Endpoints: postEvent(completed), findEventByID(/\_id), updateEventByID, deleteEventByID
+
+- a Fancy Feature - pagination
 
 ## Done
 
@@ -32,3 +26,9 @@
 - CORS
 - MongoDB - connection. 
 - Environment Variables
+- Follow: REST Standards
+- Adequate: Mongoose Query
+- Error Handling
+- Validation
+- Express RESTFul endpoints storeEvents
+- API Endpoints: postEvent(completed), findEventByID(/\_id), updateEventByID, deleteEventByID
